@@ -16,13 +16,13 @@ def auto2():
     name_input = wait.until(EC.presence_of_element_located(
         (By.XPATH, '//*[@id="root"]/div/form/div[3]/div[1]/div[2]/div/div/div[2]/div[1]/div/span/span/input')))
     name_input.clear()
-    name_input.send_keys('林小惟')  # 在这写入你的姓名
+    name_input.send_keys('xxx')  # 在这写入你的姓名
 
 
     sid_input = wait.until(EC.presence_of_element_located(
         (By.XPATH, '//*[@id="root"]/div/form/div[3]/div[1]/div[4]/div/div/div[2]/div[1]/div/span/input')))
     sid_input.clear()
-    sid_input.send_keys('202122011004')  # 在这写入你的学号
+    sid_input.send_keys('2021xxxxxxx')  # 在这写入你的学号
 
 
     stu_type = wait.until(
@@ -78,13 +78,13 @@ def auto():
     name_input = wait.until(EC.presence_of_element_located(
         (By.XPATH, '//*[@id="root"]/div/form/div[3]/div[1]/div[2]/div/div/div[2]/div[1]/div/span/span/input')))
     name_input.clear()
-    name_input.send_keys('白若明')  # 在这写入你的姓名
+    name_input.send_keys('xxx')  # 在这写入你的姓名
 
 
     sid_input = wait.until(EC.presence_of_element_located(
         (By.XPATH, '//*[@id="root"]/div/form/div[3]/div[1]/div[4]/div/div/div[2]/div[1]/div/span/input')))
     sid_input.clear()
-    sid_input.send_keys('202121010241')  # 在这写入你的学号
+    sid_input.send_keys('2021xxxxxxxx')  # 在这写入你的学号
 
 
     stu_type = wait.until(
